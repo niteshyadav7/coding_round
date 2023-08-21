@@ -1,0 +1,22 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Revise React",
+  "scripts": {
+    "start": "npx parcel public/index.html",
+    "build": "npx parcel build public/index.html",
+    "test": "jest"
+  },
+  "author": "Nitesh Yadav",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.3.1",
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
