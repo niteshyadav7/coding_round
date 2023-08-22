@@ -27,7 +27,7 @@ const CounterUI = () => {
   };
 
   const handleDiv = (e) => {
-    setCalc(inputFirst / inputSecond);
+    setCalc(Math.round(inputFirst / inputSecond));
     setSign(e.target.name);
   };
   return (
@@ -66,7 +66,6 @@ const CounterUI = () => {
           <button name="/" onClick={handleDiv}>
             /
           </button>
-         
         </div>
       </div>
     </div>

@@ -1,9 +1,9 @@
-import Counter from "./component/Box/Counter";
+import Parent from "./component/lifecycle/Parent";
 
 const App = () => {
   return (
     <>
-      <Counter />
+      <div>App</div>
     </>
   );
 };
